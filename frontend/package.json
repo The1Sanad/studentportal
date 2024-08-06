@@ -1,0 +1,50 @@
+{
+  "name": "sam-starter-fontend",
+  "version": "1.0.0",
+  "description": "Frontend app for the Innovator Island workshop.",
+  "author": "Mohammed Ismaeel",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cache-loader": "^4.1.0",
+    "core-js": "^3.37.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^9.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

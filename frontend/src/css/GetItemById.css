@@ -1,0 +1,7 @@
+/* Styles specific to GetItems component */
+.error {
+    color: red;
+  }
+  h1, h2 {
+    text-align: center;
+  }
